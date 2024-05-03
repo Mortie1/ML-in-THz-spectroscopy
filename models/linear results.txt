@@ -1,0 +1,185 @@
+[0.01, 0.1, 1.0, 10.0, 100.0]
+logistic regression
+penalty: none, lambda: 0.01
+    accuracy: 66.15%
+    precision: 0.959
+    recall: 0.885
+    f1: 0.907
+    roc_auc: 0.979
+
+penalty: none, lambda: 0.1
+    accuracy: 66.15%
+    precision: 0.959
+    recall: 0.885
+    f1: 0.907
+    roc_auc: 0.979
+
+penalty: none, lambda: 1.0
+    accuracy: 66.15%
+    precision: 0.959
+    recall: 0.885
+    f1: 0.907
+    roc_auc: 0.979
+
+penalty: none, lambda: 10.0
+    accuracy: 66.15%
+    precision: 0.959
+    recall: 0.885
+    f1: 0.907
+    roc_auc: 0.979
+
+penalty: none, lambda: 100.0
+    accuracy: 66.15%
+    precision: 0.959
+    recall: 0.885
+    f1: 0.907
+    roc_auc: 0.979
+
+penalty: l2, lambda: 0.01
+    accuracy: 55.91%
+    precision: 0.961
+    recall: 0.840
+    f1: 0.879
+    roc_auc: 0.978
+
+penalty: l2, lambda: 0.1
+    accuracy: 62.60%
+    precision: 0.960
+    recall: 0.870
+    f1: 0.898
+    roc_auc: 0.979
+
+penalty: l2, lambda: 1.0
+    accuracy: 65.23%
+    precision: 0.959
+    recall: 0.881
+    f1: 0.904
+    roc_auc: 0.979
+
+penalty: l2, lambda: 10.0
+    accuracy: 66.15%
+    precision: 0.959
+    recall: 0.885
+    f1: 0.907
+    roc_auc: 0.979
+
+penalty: l2, lambda: 100.0
+    accuracy: 66.19%
+    precision: 0.957
+    recall: 0.886
+    f1: 0.907
+    roc_auc: 0.979
+
+penalty: l1, lambda: 0.01
+    accuracy: 33.99%
+    precision: 0.847
+    recall: 0.769
+    f1: 0.792
+    roc_auc: 0.949
+
+penalty: l1, lambda: 0.1
+    accuracy: 34.35%
+    precision: 0.846
+    recall: 0.773
+    f1: 0.795
+    roc_auc: 0.950
+
+penalty: l1, lambda: 1.0
+    accuracy: 34.40%
+    precision: 0.846
+    recall: 0.773
+    f1: 0.795
+    roc_auc: 0.950
+
+penalty: l1, lambda: 10.0
+    accuracy: 34.41%
+    precision: 0.846
+    recall: 0.773
+    f1: 0.795
+    roc_auc: 0.950
+
+penalty: l1, lambda: 100.0
+    accuracy: 34.41%
+    precision: 0.846
+    recall: 0.773
+    f1: 0.795
+    roc_auc: 0.950
+
+Linear SVM
+penalty: l2, lambda: 0.01
+    accuracy: 62.97%
+    precision: 0.976
+    recall: 0.865
+    f1: 0.894
+penalty: l2, lambda: 0.1
+    accuracy: 68.20%
+    precision: 0.976
+    recall: 0.888
+    f1: 0.912
+penalty: l2, lambda: 1.0
+    accuracy: 71.24%
+    precision: 0.974
+    recall: 0.901
+    f1: 0.922
+penalty: l2, lambda: 10.0
+    accuracy: 72.60%
+    precision: 0.970
+    recall: 0.909
+    f1: 0.928
+penalty: l2, lambda: 100.0
+    accuracy: 73.09%
+    precision: 0.968
+    recall: 0.912
+    f1: 0.930
+penalty: l1, lambda: 0.01
+    accuracy: 56.15%
+    precision: 0.980
+    recall: 0.831
+    f1: 0.868
+penalty: l1, lambda: 0.1
+    accuracy: 65.53%
+    precision: 0.976
+    recall: 0.875
+    f1: 0.901
+penalty: l1, lambda: 1.0
+    accuracy: 68.18%
+    precision: 0.974
+    recall: 0.887
+    f1: 0.910
+penalty: l1, lambda: 10.0
+    accuracy: 68.51%
+    precision: 0.974
+    recall: 0.889
+    f1: 0.911
+penalty: l1, lambda: 100.0
+    accuracy: 68.56%
+    precision: 0.974
+    recall: 0.889
+    f1: 0.911
+
+Kernel (RBF) SVM
+lambda: 0.01
+    accuracy: 0.17%
+    precision: 0.491
+    recall: 0.872
+    f1: 0.574
+lambda: 0.1
+    accuracy: 2.55%
+    precision: 0.670
+    recall: 0.845
+    f1: 0.693
+lambda: 1.0
+    accuracy: 10.76%
+    precision: 0.758
+    recall: 0.863
+    f1: 0.782
+lambda: 10.0
+    accuracy: 14.40%
+    precision: 0.852
+    recall: 0.877
+    f1: 0.852
+lambda: 100.0
+    accuracy: 7.58%
+    precision: 0.814
+    recall: 0.917
+    f1: 0.843

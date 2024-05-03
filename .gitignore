@@ -1,0 +1,17 @@
+data/
+*.csv
+.venv/
+
+**/hapi2/
+**/hapi2-lbl-dit/
+
+**/~tmp/
+**/.provenanvce
+**/results
+**/*.pkl
+**/*.zip
+catboost_info/
+data-random-elements-ratio/
+more-elements/
+new-more-data/
+wandb/
